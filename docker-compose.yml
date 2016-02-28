@@ -1,15 +1,7 @@
 minidlna:
-  privileged: true
   build: .
+  net: host
   ports:
-    - 80:8200
+    - 8200:8200
   volumes:
-    - /dev/sdc:/dev/sdc
-    - /dev/sdd:/dev/sdd
-    - /dev/sde:/dev/sde
-    - /dev/sdf:/dev/sdf
-  environment:
-    LVM_VOLS: |-
-      lsblk
-      pvs; vgs; lvs
-      exit 1
+    - /srv/mythtv/videos:/var/lib/minidlna

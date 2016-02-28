@@ -1,3 +1,3 @@
 A MiniDLNA/ReadyMedia container.
 
-**Doesn't work yet!**
+Consult `docker-compose.yml` for an example of usage.

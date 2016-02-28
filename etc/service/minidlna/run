@@ -2,4 +2,4 @@
 
 . /etc/container_environment.sh
 
-exec setuser 1000 /usr/sbin/minidlnad -v -f /ertc/minidlna.conf
+exec /usr/sbin/minidlnad -d -v -f /etc/minidlna.conf
