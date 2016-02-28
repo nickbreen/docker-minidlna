@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# Mount all volumes specified in /etc/container_environment/LVM_VOLS
+
+# For now, just smash it through a shell
+
+sh -f /etc/container_environment/LVM_VOLS
+
+

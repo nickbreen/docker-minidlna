@@ -1,2 +1,3 @@
-# docker-minidlna
-MiniDLNA/ReadyMedia
+A MiniDLNA/ReadyMedia container.
+
+**Doesn't work yet!**
